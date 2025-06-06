@@ -17,11 +17,11 @@ int main(){
         if(sueldo>2000){
             impuesto=0.15;
             totalPagar=(sueldo*impuesto);
-            cout<<"La cantidad a pagar es de : $"<<totalPagar<<endl;
+            cout<<"La cantidad de impuestos a pagar es de : $"<<totalPagar<<endl;
         } else{
             impuesto=0.10;
             totalPagar=(sueldo*impuesto);
-            cout<<"La cantidad a pagar es de : $"<<totalPagar<<endl;
+            cout<<"La cantidad de impuestos a pagar es de : $"<<totalPagar<<endl;
         }
     }
 
